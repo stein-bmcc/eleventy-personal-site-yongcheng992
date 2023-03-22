@@ -24,11 +24,11 @@ tags:
 <section class="grid">
         
   <article class="card">
-    <div class="card__img"><img src="images/images/20.png" alt=""></div>
+    <div class="card__img"><img src="/images/images/20.png" alt=""></div>
     <div class="card__content">
       <h1 class="card__header">Typography</h1>
       <p class="card__text">I like typography because it can enrich our vision and convey people's information in time through careful design.</p>
-      <a href="typography(content).html" class="card__btn"><strong>View</strong></a> 
+      <a href="/typography(content)" class="card__btn"><strong>View</strong></a> 
     </div>
   </article>
 
@@ -52,11 +52,11 @@ tags:
   </article>
 
 <article class="card">
-  <div class="card__img"><img src="images/images/22.png" alt="Canyons"></div>
+  <div class="card__img"><img src="/images/images/22.png" alt="Canyons"></div>
     <div class="card__content">
       <h1 class="card__header">Storyboard</h1>
       <p class="card__text">I love creating storyboards because it gives me the skills to clarify my thoughts while creating them.</p>
-      <a href="storyboard(content).html" class="card__btn"><strong>View</strong></a> 
+      <a href="/storyboard(content)" class="card__btn"><strong>View</strong></a> 
     </div>
   </article>
 </section>
