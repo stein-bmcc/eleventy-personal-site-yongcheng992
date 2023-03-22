@@ -33,20 +33,20 @@ tags:
   </article>
 
   <article class="card">
-    <div class="card__img"><img src="images/images/8.png" alt=""></div>
+    <div class="card__img"><img src="/images/images/8.png" alt=""></div>
     <div class="card__content">
       <h1 class="card__header">Mobile design</h1>
       <p class="card__text">I like mobile design, it has different general requirements for design, requires detailed content, and is very challenging.</p>
-      <a href="mobile(content).html" class="card__btn"><strong>View</strong></a> 
+      <a href="/mobile(content)" class="card__btn"><strong>View</strong></a> 
     </div>
   </article>
 
   <article class="card">
-    <div class="card__img"><img src="images/images/21.png" alt="Canyons"></div>
+    <div class="card__img"><img src="/images/images/21.png" alt="Canyons"></div>
     <div class="card__content">
       <h1 class="card__header">Web design</h1>
       <p class="card__text">I believe that website design brings me everything,  keep looking for inspiration in the design process and improving.</p>
-      <a href="webdesign(content).html" class="card__btn"><strong>View</strong></a> 
+      <a href="/web(content)" class="card__btn"><strong>View</strong></a> 
       
     </div>
   </article>
