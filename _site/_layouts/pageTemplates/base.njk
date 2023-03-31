@@ -1,5 +1,5 @@
 ---
-siteTitle: Your Site Title Here
+siteTitle: YongCheng Zhou's site 
 
 ---
 <!doctype html>
@@ -9,7 +9,7 @@ siteTitle: Your Site Title Here
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{siteTitle}}: {{title}}</title>
+    <title></title>
     <meta name="description" content="">
 
     <meta property="og:title" content="">
@@ -22,24 +22,29 @@ siteTitle: Your Site Title Here
     <link rel="apple-touch-icon" href="icon.png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/card.css">
     </head>
   <body>
     <header class="site-header">
       {% include "navigation.njk" %}
     </header>
+   
+    
   
   <main class="main page-content">{{ content | safe }}</main>
 
-    <footer class="site-footer">
-      <!-- Add your footer content here -->
-    </footer>
-  </body>
+  <section class="footer">
+    <p>© 2023 by yongcheng zhou.</p>
+  </section>
+  
     <!-- Load CDN version of jQuery. For other versions visit this page: https://code.jquery.com/jquery/ -->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <!--    Load Local version if CDN is not working-->
     <script>window.jQuery || document.write('<script src="/js/vendor/jquery-3.6.4.min.js"><\/script>')</script>
     <script src="/js/main.js"></script>
+  </body>  
 </html>
 
 

@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+//If using Google Fonts or other system to import fonts, then add import CSS for that above on line 1
+
+/* They styles in the following are similar to the effect of a reset but have be separated out so that it is easier to add default styles.  These are suggested styles that the designer should change and add to set the typography 
+Much of this is modified from two original sources
+HTML 5 Doctor Reset: http://html5doctor.com/html-5-reset-stylesheet/
+This is in the public domain. It has been modified to remove things redundant with Normalize and separate out styles that may need to be styled separately.
+Normalize.css: git.io/normalize 
+The version modified is: normalize.css v3.0.1 | MIT License
+A few pieces of normalize.css that more directly affected typographic choices (such as font-family) were moved here so normalize.css could be more or less left alone.
+*/
+
+/* ==================================================================== 
+    RESPONSIVE PREPARATION 
+   ==================================================================== 
+   Use these "as is"
+*/
+
+/*The following 7 lines are from Paul Irish and apply a border-box model. 
+See this page for more info: http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    font-size: 1rem;
+    
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  /* Basic Responsive Images and Video */
+  img,video{
+    width: auto; 
+    height: auto;
+    max-width: 100%; 
+  }
+  
+  
+  /* Embedded Video Styles
+      These can be used to help add embedded video content, like YouTube videos, to your page. 
+      These styles require you set up your HTML in a specific way. 
+      See this CodePen for an example of it in use: http://codepen.io/profstein/pen/mArLRj
+  */
+  
+  .videoWrapper {
+      position: relative;
+      padding-top: 25px;
+      height: 0;
+  }
+  
+  .videoWrapper.ratio-16-9{
+      padding-bottom: 56.25%; /* 16:9 aspect ratio video */
+  }
+  
+  .videoWrapper.ratio-4-3{
+      padding-bottom: 75%; /* 4:3 aspect ratio video */
+  }
+  
+  .videoWrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+  
+  
+  .footer p{
+    text-align: center;
+    margin-top: 5%;
+   }
+
+
+
+
+
+}
+/* This adds space between paragraphs and list items*/
+/* NOTE: most Navigations use list items so you will need to explicity set the margins on those so this rule doesn't mess up your navigation styling */
+
+/* Basic Responsive Images and Video 
+================================================== */
+img,video{
+  width: auto; 
+  height: auto;
+  max-width: 100%; 
+}
+
+
+.grid-1{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.card-2{
+  padding: 5%;
+}
+
+body{
+  background-color: #DFF0F9;
+}
+
+figcaption{
+  font-size: 1rem;
+}
+
+
+@media screen and (min-width: 600px){
+  .grid-1{
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-1 .section-head{
+    grid-column: 1/-1;
+  }
+}
+/* end min-width: 600px */
+
+
+@media screen and (min-width: 1200px){
+  .grid-1{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.grid-t{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 1%;
+}
+
+
+
+
+@media screen and (min-width: 600px){
+  .grid-t{
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-t .section-head{
+    grid-column: 1/-1;
+  }
+}
+/* end min-width: 600px */
+
+
+@media screen and (min-width: 1200px){
+  .grid-t{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.grid-s{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 1%;
+}
+
+
+
+
+@media screen and (min-width: 600px){
+  .grid-s{
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-s .section-head{
+    grid-column: 1/-1;
+  }
+}
+/* end min-width: 600px */
+
+
+@media screen and (min-width: 1200px){
+  .grid-s{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.grid-w{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 1%;
+}
+
+
+
+
+@media screen and (min-width: 600px){
+  .grid-w{
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-w .section-head{
+    grid-column: 1/-1;
+  }
+}
+/* end min-width: 600px */
+
+
+@media screen and (min-width: 1200px){
+  .grid-w{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.grid-m{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 1%;
+}
+
+
+
+
+@media screen and (min-width: 600px){
+  .grid-m{
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-m .section-head{
+    grid-column: 1/-1;
+  }
+}
+/* end min-width: 600px */
+
+
+@media screen and (min-width: 1200px){
+  .grid-m{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* end min-width: 1200px */
+
+/* =================================================
+   Basic Color
+  ================================================== */
+
+
+/* ===================================================
+   CARDS
+  ================================================== */
+
+  /* ==========================================================================
+     Your CSS
+     You can change this comment and add in your own CSS below */
+     ========================================================================== 
+      
