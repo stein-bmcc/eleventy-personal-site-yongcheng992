@@ -2,8 +2,12 @@
 title: typography(content)
 date: Created
 layout: base
+name: Typography
+img: 20.png
+description: I like typography because it can enrich our vision and convey people's information in time through careful design.
 tags:
   - typography
+  - home
 ---
 <section class="grid">    
     <article class="card">

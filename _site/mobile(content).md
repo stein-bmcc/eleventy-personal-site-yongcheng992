@@ -2,8 +2,12 @@
 title: mobile(content)
 date: Created
 layout: base
+name: Mobile design
+img: 8.png
+description: I like mobile design, it has different general requirements for design, requires detailed content, and is very challenging.
 tags:
   - mobile
+  - home
 
 ---
 <section class="grid"> 

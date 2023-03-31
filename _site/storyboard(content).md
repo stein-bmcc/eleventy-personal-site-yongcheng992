@@ -2,8 +2,12 @@
 title: storyboard(content)
 date: Created
 layout: base
+name: Storyboard
+img: 22.png
+description: I love creating storyboards because it gives me the skills to clarify my thoughts while creating them.
 tags:
   - storyboard
+  - home
 ---
 
 <section class="grid">     

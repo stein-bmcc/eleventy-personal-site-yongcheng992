@@ -2,8 +2,12 @@
 title: web(content)
 date: Created
 layout: base
+name: Web design
+img: 21.png
+description: I believe that website design brings me everything, keep looking for inspiration in the design process and improving.
 tags:
   - web
+  - home
 ---
 
 <section class="grid">     
